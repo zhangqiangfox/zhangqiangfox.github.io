@@ -1,0 +1,128 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*取消页面的留白*/
+
+@color: #35b558;
+@redColor: #f00;
+@whiteColor: #fff;
+@greenColor: rgb(200, 0, 0);
+.padding {
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.article {
+
+    margin: 20px;
+    height: 240px;
+    min-width: 800px;
+    text-align: center;
+    overflow: hidden;
+    /*将超出的内容隐藏*/
+    border: 2px solid @color;
+
+
+    .middle {
+        width: 100%;
+        float: left;
+        .padding;
+
+        .inner {
+            margin-left: 250px;
+            margin-right: 280px;
+
+            ul {
+                list-style: none;
+
+
+                li {
+                    float: left;
+                    width: 20px;
+                    height: 200px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-right: 10px;
+                    padding: 0;
+                    color: #38f;
+                    line-height: 32px;
+
+                     span {
+                        color: @redColor;
+                    }
+                }
+            }
+        }
+    }
+    /*设置中间部分宽度100%，左浮动和背景颜色*/
+    .left {
+        width: 240px;
+        float: left;
+        line-height: 600px;
+        margin-left: -100%;
+        /*负边距将元素放在一行*/
+        .padding;
+        padding: 20px;
+
+        .left-out {
+            width: 220px;
+            height: 140px;
+            font-size: 100px;
+            font-weight: bold;
+            background-color: @whiteColor;
+            border: 5px solid @redColor;
+
+            .left-inner {
+                width: 200px;
+                height: 130px;
+                margin: 5px auto;
+                background-color: @redColor;
+                color: @whiteColor;
+                line-height: 140px;
+            }
+
+            .left-inner-bottom {
+                float: left;
+                margin-top: 20px;
+                width: 0;
+                height: 0;
+                border-left: 20px solid @greenColor;
+                border-top: 10px solid transparent;
+                border-right: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+            }
+
+            .left-inner-dest {
+                float: left;
+                margin-top: 20px;
+                width: 170px;
+                background-color: @greenColor ;
+                color: #fff;
+                height: 20px;
+                line-height: 20px;
+                font-size: 10px;
+                letter-spacing: 5px;
+            }
+        }
+    }
+    .right {
+        width: 280px;
+        float: left;
+        text-align: left;
+        color: #38f;
+        margin-left: -280px;
+        /*负边距将元素放在一行*/
+        .padding;
+
+        span {
+            color: @redColor;
+            font-size: 30px;
+        }
+    }
+}
+
+
+/*内容与middle分离，方便修改*/

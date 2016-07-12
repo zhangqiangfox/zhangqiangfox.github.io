@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+/*取消页面的留白*/
+
+.article {
+    height: 600px;
+    min-width: 800px;
+    text-align: center;
+    background: rgb(200, 100, 185);
+    overflow: hidden; /*将超出的内容隐藏*/
+}
+
+.middle {
+    width: 100%;
+    background-color: red;
+    float: left;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+/*设置中间部分宽度100%，左浮动和背景颜色*/
+
+.left {
+    width: 300px;
+    background-color: green;
+    float: left;
+    line-height: 600px;
+    margin-left: -100%;/*负边距将元素放在一行*/
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.right {
+    width: 300px;
+    background-color: blue;
+    float: left;
+    line-height: 600px;
+    margin-left: -300px;/*负边距将元素放在一行*/
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.inner {
+    background-color: rgb(50, 250, 200);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+/*内容与middle分离，方便修改*/

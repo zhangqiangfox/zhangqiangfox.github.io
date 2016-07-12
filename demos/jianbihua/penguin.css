@@ -1,0 +1,424 @@
+/*设置动画效果*/
+
+@-webkit-keyframes animation {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+        -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg)； -moz-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+        -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
+        -moz-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg)
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2{
+	text-align: center;
+	color: red;
+}
+.penguin-all {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.penguin-all {
+    animation-name: animation;
+    -webkit-animation-name: animation;
+    -moz-animation-name: animation;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-duration: 5s;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    animation-delay: 0;
+    -webkit-animation-delay: 0;
+    -moz-animation-delay: 0;
+}
+
+
+/*设置头部css效果，位置为绝对定位*/
+
+.penguin-all .header-top {
+    width: 300px;
+    height: 150px;
+    border-radius: 150px 150px 0 0;
+    border: 1px solid black;
+    border-bottom: none;
+    margin-top: 50px;
+    position: absolute;
+    margin-left: 250px;
+    background-color: black;
+    z-index: 0;
+}
+
+.penguin-all .out-header-bottom {
+    width: 302px;
+    height: 75px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 250px;
+    overflow: hidden;
+}
+
+.penguin-all .header-bottom {
+    width: 300px;
+    height: 150px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    margin-top: -77px;
+    background-color: black;
+    z-index: 0;
+}
+
+
+/*设置眼睛css效果，位置为绝对定位*/
+
+.penguin-all .left-eye {
+    width: 50px;
+    height: 80px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 335px;
+    background-color: white;
+    z-index: 1;
+}
+
+.penguin-all .left-eye .inner-left-eye {
+    width: 15px;
+    height: 30px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: black;
+    z-index: 2;
+}
+
+.penguin-all .left-eye .inner-left-eye .inner-left-eye-in {
+    width: 8px;
+    height: 8px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    margin-top: 8px;
+    margin-left: 3px;
+    background-color: white;
+    z-index: 3;
+}
+
+.penguin-all .right-eye {
+    width: 50px;
+    height: 80px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 415px;
+    background-color: white;
+    z-index: 1;
+}
+
+.penguin-all .inner-right-eye-scale {
+    width: 20px;
+    height: 17px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.penguin-all .inner-right-eye {
+    width: 15px;
+    height: 30px;
+    border-radius: 50% 50%;
+    border: 2px solid black;
+}
+
+
+/*设置嘴巴css效果，位置为绝对定位*/
+
+.penguin-all .mouse-top-scale {
+    width: 202px;
+    height: 40px;
+    position: absolute;
+    margin-top: 208px;
+    margin-left: 300px;
+    overflow: hidden;
+}
+
+.penguin-all .mouse-top {
+    width: 200px;
+    height: 50px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    background-color: orange;
+    z-index: 2
+}
+
+.penguin-all .mouse-bottom-scale {
+    width: 180px;
+    height: 26px;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 311px;
+    overflow: hidden;
+}
+
+.penguin-all .mouse-bottom {
+    width: 178px;
+    height: 60px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    margin-top: -36px;
+    background-color: orange;
+    z-index: 2
+}
+
+
+/*设置围脖css效果，位置为绝对定位*/
+
+.penguin-all .out-scarf-top {
+    width: 334px;
+    height: 175px;
+    position: absolute;
+    margin-top: 208px;
+    margin-left: 233px;
+    overflow: hidden;
+}
+
+.penguin-all .scarf-top {
+    width: 325px;
+    height: 165px;
+    border: 5px solid black;
+    border-radius: 50% 50%;
+    position: relative;
+    margin-top: -54px;
+    z-index: -1;
+    background-color: red;
+}
+
+.penguin-all .scarf-botttom {
+    width: 50px;
+    height: 70px;
+    border: 3px solid black;
+    border-bottom-left-radius: 50% 43%;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 20% 57%;
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 285px;
+    background-color: red;
+    z-index: -2;
+}
+
+
+/*设置身体css效果，位置为绝对定位*/
+
+.penguin-all .inner-body-scale {
+    width: 272px;
+    height: 272px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 266px;
+    overflow: hidden;
+}
+
+.penguin-all .inner-body {
+    width: 270px;
+    height: 270px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    margin-top: -80px;
+    position: relative;
+    z-index: -3;
+    background-color: white;
+}
+
+.penguin-all .out-body-scale {
+    width: 322px;
+    height: 322px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 240px;
+    overflow: hidden;
+}
+
+.penguin-all .out-body {
+    width: 320px;
+    height: 320px;
+    border-radius: 50% 50%;
+    border: 1px solid black;
+    margin-top: -95px;
+    position: relative;
+    z-index: -4;
+    background-color: black;
+}
+
+
+/*设置脚部css效果，位置为绝对定位*/
+
+.penguin-all .footer-left {
+    width: 120px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 50% 0 50% 50%;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 250px;
+    z-index: -5;
+    background-color: orange;
+}
+
+.penguin-all .footer-right {
+    width: 120px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 0 50% 50% 50%;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 430px;
+    z-index: -5;
+    background-color: orange;
+}
+
+
+/*设置双手css效果，位置为绝对定位*/
+
+.penguin-all .hand-left .hand-left-inner {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50% 40% 40% 50%;
+    z-index: -5;
+    background-color: black;
+}
+
+.penguin-all .hand-left {
+    width: 140px;
+    height: 54px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 150px;
+    margin-top: 315px;
+    transform: rotateZ(-55deg);
+    -webkit-transform: rotateZ(-55deg);
+    -moz-transform: rotateZ(-55deg);
+}
+
+.penguin-all .hand-right .hand-right-inner {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50% 40% 40% 50%;
+    z-index: -5;
+    background-color: black;
+}
+
+.penguin-all .hand-right {
+    width: 140px;
+    height: 54px;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 513px;
+    margin-top: 313px;
+    transform: rotateZ(-125deg);
+    -webkit-transform: rotateZ(-125deg);
+    -moz-transform: rotateZ(-125deg);
+}
+
+
+/*对边角进行修复*/
+
+.penguin-all .more-mouse {
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 10px solid black;
+    position: absolute;
+    transform: rotate(-60deg);
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    margin-top: 233px;
+    margin-left: 320px;
+}
+
+.penguin-all .more-mouse-one {
+    border-bottom: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-right: 10px solid black;
+    position: absolute;
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    transform: rotateY(180deg) rotateZ(-55deg);
+    -webkit-transform: rotateY(180deg) rotateZ(-55deg);
+    -moz-transform: rotateY(180deg) rotateZ(-55deg);
+    margin-top: 235px;
+    margin-left: 483px;
+}
+
+.penguin-all .more-two {
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    border-right: 6px solid black;
+    border-bottom-right-radius: 70px 70px;
+    margin-left: 447px;
+    margin-top: 208px;
+}
+
+.penguin-all .more-three {
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    border-right: 6px solid black;
+    border-bottom-right-radius: 60px 60px;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    margin-left: 247px;
+    margin-top: 208px;
+}
+
+.penguin-all .more-four {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    border-right: 3px solid black;
+    border-bottom-right-radius: 30px 30px;
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    transform: rotateX(180deg) rotateZ(30deg);
+    -webkit-transform: rotateX(180deg) rotateZ(30deg);
+    -moz-transform: rotateX(180deg) rotateZ(30deg);
+    margin-left: 513px;
+    margin-top: 497px;
+}
+
+.penguin-all .more-five {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    border-right: 3px solid black;
+    border-bottom-right-radius: 30px 30px;
+    transform-origin: top right;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    transform: rotateZ(-148deg);
+    -webkit-transform: rotateZ(-148deg);
+    -moz-transform: rotateZ(-148deg);
+    margin-left: 207px;
+    margin-top: 497px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" name="viewport">
+    <title>计算器</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"><!--引入css样式表-->
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="content">
+      <h2 class="caculate">简易计算器</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="6">
+                    <form id="form">
+                        <input type="text" value="" id="inputText">
+                    </form>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><button type="button" id="inputOne" name="checknumber" value="1" onClick="CheckNumber(1)">1</button></td>
+                    <td><button type="button" id="inputTwo" name="checknumber" value="2" onClick="CheckNumber(2)">2</button></td>
+                    <td><button type="button" id="inputThree" name="checknumber" value="3" onClick="CheckNumber(3)">3</button></td>
+                    <td><button type="button" id="inputBack" value="">清零</button></td>
+                    <td><button type="button" id="inputDelete" value="1/x" onClick="RecipButton()">1/x</button></td>
+                    <td><button type="button" id="inputabs" value="nagative" onClick="NagButton()">±x</button></td>
+                </tr>
+                <tr>
+                    <td><button type="button" id="inputFour" name="checknumber" value="4" onClick="CheckNumber(4)">4</button></td>
+                    <td><button type="button" id="inputFive" name="checknumber" value="5" onClick="CheckNumber(5)">5</button></td>
+                    <td><button type="button" id="inputSix" name="checknumber" value="6" onClick="CheckNumber(6)">6</button></td>
+                    <td><button type="button" id="inputAdd" value="+" onClick="AddButton(1)">+</button></td>
+                    <td><button type="button" id="inputFdd" value="-" onClick="SubButton(1)">-</button></td>
+                    <td><button type="button" id="inputFdd" value="x^1/2" onClick="SqrtButton()">x^1/2</button></td>
+
+                </tr>
+                <tr>
+                    <td><button type="button" id="inputSeven" name="checknumber" value="7" onClick="CheckNumber(7)">7</button></td>
+                    <td><button type="button" id="inputEight" name="checknumber" value="8" onClick="CheckNumber(8)">8</button></td>
+                    <td><button type="button" id="inputNine" name="checknumber" value="9" onClick="CheckNumber(9)">9</button></td>
+                    <td><button type="button" id="inputEdd" value="*" onClick="MultButton(1)">*</button></td>
+                    <td><button type="button" id="inputPdd" value="/" onClick="DivButton(1)">/</button></td>
+                    <td><button type="button" id="inputPdd" value="abs" onClick="AbsButton()">abs</button></td>
+
+                </tr>
+                <tr>
+                    <td><button type="button" id="inputZore" value="0" onClick="CheckNumber(0)">0</button></td>
+                    <td><button type="button" id="inputPoint" value="." onClick="CheckNumber('.')">.</button></td>
+                    <td><button type="button" id="inputSin" value="sin" onClick="SinButton()">sin</button></td>
+                    <td><button type="button" id="inputCos" value="cos" onClick="CosButton()">cos</button></td>
+                    <td colspan="2"><button type="button" id="inputResult" onClick="EqualButton()">=</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script type="text/javascript" src="./js/script2.js"></script>
+</body>
+
+</html>
