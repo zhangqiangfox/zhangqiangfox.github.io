@@ -1,0 +1,242 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12px arial;
+}
+
+.wrapper {
+    min-width: 810px;
+    min-height: 600px;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    display: none;
+}
+
+header {
+    overflow: hidden;
+}
+
+header nav {
+    float: right;
+    margin: 19px 0 5px 0;
+    padding: 0 142px 0 0;
+}
+
+header nav a {
+    margin-left: 20px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+header nav a:hover {
+    color: #00c;
+}
+
+
+/*设置下拉菜单*/
+
+.setting-menu {
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    right: 95px;
+    text-align: center;
+}
+
+.setting-menu .baidu-setting a {
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    color: #333;
+}
+
+.setting-menu .baidu-setting a:hover {
+    color: #ffffff;
+    background-color: #3385ff;
+}
+
+.setting-menu .baidu-setting {
+    position: absolute;
+    top: 25px;
+    left: 3px;
+    width: 60px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 5px #ddd;
+    z-index: 99;
+    display: none;
+}
+
+.setting-menu:hover .baidu-setting {
+    display: block;
+}
+
+.setting-menu .icon-trangle {
+    position: absolute;
+    top: -11px;
+    left: 25px;
+    width: 0;
+    height: 0;
+    display: block;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+    border-bottom-color: #d8d8d8;
+}
+
+.setting-menu .icon-trangle::after {
+    content: '.';
+    position: absolute;
+    top: -4px;
+    left: -5px;
+    width: 0;
+    height: 0;
+    display: block;
+    border: 5px solid transparent;
+    border-style: dashed dashed solid dashed;
+    border-bottom-color: #ffffff;
+}
+
+header nav .more-product {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+}
+
+header nav .more-product:hover {
+    color: white;
+}
+
+
+/*设置主体部分*/
+
+.content {
+    position: relative;
+    top: 38.2%;
+    text-align: center;
+    font-size: 0;
+}
+
+.content .search-form {
+    position: relative;
+    width: 647px;
+    height: 191px;
+    margin: 0 auto;
+    top: -191px;
+}
+
+.content img {
+    width: 270px;
+    height: 129px;
+}
+
+.content .search-input {
+    width: 539px;
+    height: 28px;
+    border: 1px solid #ddd;
+    padding: 3px 0 3px 7px;
+    border-right-width: 0;
+    outline: none;
+    vertical-align: middle;
+}
+
+.content .search-input:hover {
+    border-color: #999 transparent #b3b3b3 #999;
+}
+
+.content .search-input:focus {
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.content .search-image {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url(../images/baidu.png) 0 0 no-repeat;
+    right: 111px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.content .search-image:hover {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url(../images/baidu.png) 0 -21px no-repeat;
+    right: 111px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.content .search-btn {
+    width: 100px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #2d78f4;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.content .search-btn:hover {
+    background-color: #317ef3
+}
+
+.content form {
+    position: relative;
+}
+
+
+/*设置底部样式*/
+
+footer {
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    color: #00c;
+}
+
+footer p a:hover {
+    color: #00c;
+}
+
+footer .copy-right a:hover {
+    color: #666;
+}
+
+footer .most {
+    padding-left: 20px;
+}

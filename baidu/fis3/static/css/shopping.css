@@ -1,0 +1,153 @@
+/*购物部分css样式表*/
+.con5{
+	width: 900px;
+    min-height: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing:border-box;
+    z-index: 10;
+    background-color: #fff;
+    display: none;
+}
+.con5 .shopping{
+	width: 870px;
+	height: 270px;
+	position: relative;
+}
+.shopping>div{
+	width: 195px;
+	height: 265px;
+	float: left;
+	margin-right: 20px
+}
+.shopping .shop-three img{/*背景图片样式*/
+	width: 195px;
+	height: 265px;
+}
+.shopping .shop-one .shop-one-price{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 160px;
+	height: 50px;
+	background-color: #fff;
+	z-index: 10;
+	opacity: 0.9;
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+.shopping .shop-one .shop-one-price a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #333;
+}
+.shopping .shop-one .shop-one-price span{
+	color: orange;
+}
+.shopping .shop-two .shop-two-price{
+	position: absolute;
+	left: 235px;
+	bottom: 20px;
+	width: 160px;
+	height: 50px;
+	background-color: #fff;
+	z-index: 10;
+	opacity: 0.9;
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+.shopping .shop-two .shop-two-price a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #333;
+}
+.shopping .shop-two .shop-two-price span{
+	color: orange;
+}
+.shopping .shop-three .shop-three-price{
+	position: absolute;
+	left: 450px;
+	bottom: 20px;
+	width: 160px;
+	height: 50px;
+	background-color: #fff;
+	z-index: 10;
+	opacity: 0.9;
+	padding: 10px;
+	box-sizing:border-box;
+
+}
+.shopping .shop-three .shop-three-price a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #333;
+}
+.shopping .shop-three .shop-three-price span{
+	color: orange;
+}
+.shopping .shop-four>a{
+	display: block;
+	width: 100%;
+	height: 90px;
+	text-align: left;
+	text-decoration: none;
+	color: #666;
+	font-size: 15px;
+	line-height: 25px;
+	border-bottom: 1px solid #ddd;
+}
+.shopping .shop-four h3{
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+}.shopping .shop-four .look{
+	color: #38f;
+	font-size: 13px;
+}
+.shopping .shop-four .look:hover{
+    text-decoration: underline;
+}
+.shopping .fan{
+	text-align: left;
+	line-height: 30px;
+	font-size: 15px;
+	position: relative;
+
+}
+.shopping .fan a{
+	text-decoration: none;
+	color: #666;
+
+}
+.shopping .fan h3 a{
+	color: #333;
+	font-weight: bold;
+}
+.shopping .fan .fan-list li{
+	list-style: none;
+}
+.shopping .fan .fan-list li a:hover{
+    text-decoration: underline;
+}
+.shopping .fan .fan-list{
+	float: left;
+}
+
+.shopping .fan .fan-rlist {
+	float: left;
+	list-style: none;
+	margin-left: 40px;
+}
+.shopping .fan .fan-rlist a{
+	color: #666;
+}
+.shopping .fan .fan-rlist a:hover{
+	text-decoration: underline;
+}
+.shopping .fan .fan-rlist a span{
+	font-size: 13px;
+	color: #38f;
+}

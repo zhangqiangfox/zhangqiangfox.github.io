@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>所有信息</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/admin.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <p class="navbar-text">百度新闻后台</p>
+        <a href="/news" class="navbar-text">新闻首页入口</a>
+    </nav>
+    <section class="row">
+        <div class="btn-group-vertical btn-group-lg col-md-1 col-xs-2" role="group" id="btn">
+            <button type="button" value="modify" class="btn btn-default data-list" id="mdf">推荐</button>
+            <button type="button" value="baijia" class="btn btn-default data-list" id="bj">百家</button>
+            <button type="button" class="btn btn-default data-list" id="local">本地</button>
+            <button type="button" class="btn btn-default data-list">体育</button>
+            <button type="button" class="btn btn-default data-list">科技</button>
+            <button type="button" class="btn btn-default data-list">排球</button>
+            <button type="button" class="btn btn-default data-list">女人</button>
+            <button type="button" class="btn btn-default data-list">星座</button>
+            <button type="button" class="btn btn-default data-list">足球</button>
+            <button type="button" class="btn btn-default data-list">篮球</button>
+        </div>
+        <div class="col-md-11 col-xs-10" id="butt">
+            <table class="table table-bordered table-hover">
+                <tr id="tr">
+                    <td class="col-md-1">id</td>
+                    <td class="col-md-3">标题</td>
+                    <td class="col-md-3">概要</td>
+                    <td class="col-md-2">时间</td>
+                    <td class="col-md-2">修改/删除</td>
+                </tr>
+                <tbody id="data">
+                    
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <div id="button">
+        <button class="btn" id="bttn">添加新闻</button>
+    </div>
+    <div class="add"> 
+    <label id="addInfo">输入信息</label>             
+        <h5>新闻标题:</h5>
+        <input type="text" id="newsTitle">
+        <h5>新闻简介:</h5>
+        <input type="text" id="descrip">
+        <h5>新闻链接:</h5>
+        <input type="text" id="content_url">
+        <h5>图片链接:</h5>
+        <input type="text" id="pic_url">
+        </br>
+        </br>
+        
+        <input type="button" value="保存" id="addNews">
+        <input type="button" value="取消" id="cancel">
+    </div>
+    <div class="delete-affirm">
+            <label id="info"></label>
+            </br>
+            <input type='button' id="deleteBtn" class='btn btn-info' value='确定'>
+            <input type='button' id="cancelBtn" class='btn btn-info' value='取消'>
+    </div>
+    <div class="updateNews">
+        <p id="mdfInfo">请修改信息</p>
+        <input type='text' readonly name='newsId' id="mdfId">
+        <input type='text' readonly name='classfy' id="mdfClassfy">
+        <h5>新闻标题:</h5>
+        <input type='text'  id="mdfTitle" class='full-width' name='newsTitle'>
+        <h5>新闻简介:</h5>
+        <input type='text'  id="mdfDescrip" class='full-width' name='newsDescrip'>
+        <h5>图片链接:</h5>
+        <input type='text'  id="mdfImg" class='full-width' name='newsImg'>
+        <h5>新闻链接:</h5>
+        <textarea   id="mdfCon" class='full-width news-content'></textarea>
+        </br>
+        <input  id="mdfTime" type='text' readonly name='addTime'>
+        </br>
+        </br>
+        <input type='submit' id="mdfUpDate" class='float-right btn btn-info' value='保存'>
+        <input type='button' id="mdfHide" class='float-right btn btn-info' value='取消'>
+    </div>
+
+    <script type="text/javascript" src="javascripts/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/admin.js"></script>
+    <script type="text/javascript" src="javascripts/moment.min.js"></script>
+</body>
+
+</html>

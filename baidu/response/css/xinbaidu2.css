@@ -1,0 +1,357 @@
+/*屏幕小于1024px的css样式*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 12px arial;
+}
+
+header {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.wrapper {
+    height: 100%;
+    position: relative;
+}
+
+.content {
+    text-align: center;
+    font-size: 0;
+}
+
+.content .search-form {
+    position: relative;
+    width: 647px;
+    height: 191px;
+    margin: 0 auto;
+}
+
+.content img {
+    width: 270px;
+    height: 129px;
+}
+
+.content .search-input {
+    width: 500px;
+    height: 28px;
+    border: 1px solid #ddd;
+    padding: 3px 0 3px 7px;
+    border-right-width: 0;
+    outline: none;
+    vertical-align: middle;
+}
+
+.content .search-input:hover {
+    border-color: #999 transparent #b3b3b3 #999;
+}
+
+.content .search-input:focus {
+    border-color: #4791ff transparent #4791ff #4791ff;
+}
+
+.content .search-image {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url(../images/baidu.png) 0 0 no-repeat;
+    right: 120px;
+    top: 50%;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.content .search-image:hover {
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    background: url(../images/baidu.png) 0 -21px no-repeat;
+    right: 120px;
+    top: 50%;
+    margin-top: -8px;
+}
+
+.content .search-btn {
+    width: 90px;
+    height: 36px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border: 1px solid #2d78f4;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.content .search-btn:hover {
+    background-color: #317ef3
+}
+
+.content form {
+    position: relative;
+}
+
+
+/*主体部分的css样式*/
+
+.con-nav table {
+    margin: 25px auto;
+    width: 590px;
+    border-collapse: collapse;
+}
+
+.con-nav tr td {
+    text-align: center;
+    width: 98px;
+    height: 35px;
+    border: 1px solid #D0CECE;
+}
+
+.con-nav tr td a {
+    text-decoration: none;
+    color: #333;
+}
+
+.con-mnav table {
+    margin: 25px auto;
+    width: 590px;
+    border-collapse: collapse;
+}
+
+.con-mnav tr td {
+    width: 98px;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid #D0CECE;
+    background-color: #fff;
+}
+
+.con-mnav tr td a {
+    text-decoration: none;
+    color: #333;
+}
+
+.con-mmnav table {
+    margin: 25px auto;
+    width: 590px;
+    border-right: 1px solid #D0CECE;
+    border-left: 1px solid #D0CECE;
+    border-bottom: 1px solid #D0CECE;
+    border-collapse: collapse;
+}
+
+.con-mmnav thead td {
+    width: 98px;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid #D0CECE;
+}
+
+.mmnav-right {
+    float: right;
+    padding-right: 20px;
+}
+
+.con-mmnav table tbody td {
+    padding: 10px 0;
+}
+
+.con-mmnav table tbody .left {
+    padding-left: 20px;
+}
+
+.pic-one {
+    background: url(../images/taobao.ico);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pic-two {
+    background: url(../images/iqiyi.png);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pic-three {
+    background: url(../images/baidu.jpg);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pic-four {
+    background: url(../images/ganji.jpeg);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pic-five {
+    background: url(../images/fenghuang.jpg);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.pic-six {
+    background: url(../images/nuomi.jpg);
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.hot {
+    background: url(../images/hot.png);
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.new {
+    background: url(../images/new.png);
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+
+/*底部css样式*/
+
+.con-footer {
+    margin: 25px auto;
+    width: 590px;
+    border: 1px solid #D0CECE;
+}
+
+.footer-nav {
+    width: 570px;
+    height: 35px;
+    border-bottom: 1px solid #D0CECE;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.footer-nav-right {
+    float: right;
+    padding-right: 20px;
+}
+
+.footer-nav-right a {
+    text-decoration: none;
+    color: #333;
+}
+
+.right-one {
+    padding-left: 20px;
+}
+
+.section-con {
+    width: 550px;
+    margin: 20px;
+}
+
+.section-con table {
+    border: 1px solid #D0CECE;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.section-con table td {
+    width: 190px;
+    padding-top: 10px;
+    border: 1px solid #D0CECE;
+}
+
+.section-con table td a {
+    text-decoration: none;
+    color: #333;
+    font-size: 9px;
+}
+
+.section-left {
+    float: left;
+    padding-left: 10px;
+}
+
+.section-price {
+    float: left;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.section-right {
+    float: right;
+    color: red;
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.pic {
+    background: url(../images/fan.png);
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+footer {
+    bottom: 44px;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer p a {
+    color: #00c;
+}
+
+footer p a:hover {
+    color: #00c;
+}
+
+footer .copy-right a:hover {
+    color: #666;
+}
+
+footer .most {
+    padding-left: 20px;
+}

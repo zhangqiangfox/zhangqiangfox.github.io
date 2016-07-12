@@ -1,0 +1,139 @@
+.con3{
+	width: 900px;
+    min-height: 400px;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing:border-box;
+    z-index: 10;
+    background-color: #fff;
+    display: none;
+}
+.con3 h2{
+	text-align: left;
+}
+.con3 .nav-one{
+	width: 860px;
+	height: 70px;
+	margin: 10px auto;
+}
+.con3 .nav-one .list-one li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+.con3 .nav-one .list-one li a{
+	width: 80px;
+    color: #333;
+    padding: 0 20px;
+    line-height: 70px;
+    display: block;
+    font-size: 15px;
+    border: 1px solid #fcfcfc;
+    background-color: #fcfcfc;
+    text-decoration: none;
+}
+.con3 .nav-one .list-one li a:hover{
+	border: 1px solid #ddd;
+}
+.con3 .nav-one .list-one .nuomi{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss3.bdstatic.com/lPoZeXSm1A5BphGlnYG/icon/9483.png?1);
+}
+.con3 .nav-one .list-one .jike{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss2.bdstatic.com/lfoZeXSm1A5BphGlnYG/icon/200974.png);
+}
+.con3 .nav-one .list-one .lan{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss0.bdstatic.com/l4oZeXSm1A5BphGlnYG/icon/2556.png?3);
+}
+.con3 .nav-one .list-one .jd{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/icon/95541.png);
+}
+.con3 .nav-one .list-one .taobao{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss3.bdstatic.com/iPoZeXSm1A5BphGlnYG/icon/95487.png);
+}
+.con3 .nav-one .list-one .sn{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-bottom: -1px;
+	background: url(https://ss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/icon/95537.png?99);
+}
+.con3 .nav-two{
+	width: 860px;
+	height: 70px;
+	margin: 10px auto;
+}
+.con3 .nav-two .list-two li{
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+.con3 .nav-two .list-two li a{
+	width: 80px;
+	height: 70px;
+    padding: 0 20px;
+    line-height: 70px;
+    display: block;
+    border: 1px solid #fcfcfc;
+    text-decoration: none;
+    
+}
+.con3 .nav-two .list-two li a:hover{
+	border: 1px solid #ddd;
+}
+.con3 .nav-two .list-two li a.qq{
+    background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/super/pic/item/7a899e510fb30f24d9ca9cfccf95d143ac4b03f8.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.sina{
+    background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/super/pic/item/8601a18b87d6277f55c943c72f381f30e824fc72.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.weibo{
+    background: url(https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/71cf3bc79f3df8dca75bff6eca11728b461028ee.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.sohu{
+    background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/super/pic/item/b999a9014c086e06cec94fb405087bf40bd1cbe8.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.netease{
+    background: url(https://ss1.baidu.com/-4o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/f11f3a292df5e0fed548f9fe5b6034a85fdf72f8.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.guangm{
+    background: url(https://ss1.baidu.com/9vo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/6d81800a19d8bc3ed0587635858ba61ea9d345f8.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.cctv{
+    background: url(https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/80cb39dbb6fd5266403c4cebac18972bd407363d.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.people{
+    background: url(https://ss0.baidu.com/94o3dSag_xI4khGko9WTAnF6hhy/super/pic/item/6c224f4a20a44623f911d49d9f22720e0df3d772.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.china{
+    background: url(https://ss3.baidu.com/9fo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/eaf81a4c510fd9f9d5772596222dd42a2934a4e8.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.daliy{
+    background: url(https://ss3.baidu.com/-fo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/342ac65c10385343ed9df7de9413b07ecb8088fa.jpg)no-repeat;
+}
+.con .nav-two .list-two li a.ifeng{
+    background: url(https://ss2.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/super/pic/item/e850352ac65c10384668be3db5119313b07e893e.jpg)no-repeat;
+}
+.con3 .nav-two .list-two li a.news{
+    background: url(https://ss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/super/pic/item/b3119313b07eca807e134918962397dda144833e.jpg)no-repeat;
+}
